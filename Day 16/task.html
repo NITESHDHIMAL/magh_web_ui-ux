@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box(landing page)</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        nav {
+            background-image: url("https://images.pexels.com/photos/19824838/pexels-photo-19824838.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=2500");
+            height: 30rem;
+            background-position: center;
+            background-color: gray;
+            background-blend-mode: multiply;
+            color: white;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            font-size: 1.5rem;
+            justify-content: space-between;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            height: 90px;
+            align-items: center;
+        }
+
+        .nav_links {
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+        }
+
+        .author {
+            /* margin-left: 1200px;
+            margin-top: 350px; */
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <!-- <img src="" alt=""> -->
+                    PIXELS
+                </div>
+                <div class="nav_links">
+                    <a href="">Explore</a>
+                    <a href="">License</a>
+                    <a href="">Upload</a>
+                    <a href="">Join</a>
+                </div>
+            </div>
+
+            <!-- <div class="content">
+                <h1>The best free stock photos, royalty free <br> images & videos shared by creators.</h1>
+                <input type="text" placeholder="Search for free photos">
+                <b>Trending <span>full hd, ai, young model, indian couple, scary</span></b>
+            </div> -->
+
+
+            <div class="author">
+                Photo by Daria Rohova
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+Selectors:
+1. elements selectors
+2. id selectors
+3. class selectors
+4. gouping selectors
+
+
+selector {
+	property: value;
+}
+
+
+layout management : flex/grid

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .flex {
+            background-color: aqua;
+            display: flex;
+            height: 300px;
+            width: 300px;
+
+            /* height: 300px; */
+            /* justify-content: flex-start; */
+            justify-content: space-between;
+            /* justify-content: space-around; */
+
+            /* flex-direction: column; */
+
+            /* justify-content: flex-end; */
+
+
+            /* align-items: flex-end; */
+            /* align-items: center; */
+            /* align-items: flex-start; */
+
+
+            /* position: sticky; */
+            /* position: fixed; */
+            position: relative;
+
+            /* margin-top: 20px; */
+            /* width: 100%; */
+
+
+            /* top: 20px; */
+            /* top: 0; */
+        }
+
+
+        #box1,
+        #box2,
+        #box3,
+        #box4 {
+            width: 50px;
+        }
+
+        #box1 {
+            background-color: purple;
+            height: 50px;
+            position: absolute;
+            right: 0;
+        }
+
+        #box2 {
+            background-color: red;
+        }
+
+        #box3 {
+            background-color: yellow;
+        }
+
+        #box4 {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h2>Position</h2>
+
+    <ul>
+        <li>static</li>
+        <li>Sticky</li>
+        <li>fixed</li>
+        <li>abosolute</li>
+        <li>ralative</li>
+    </ul> -->
+
+    <!-- <h3>Flexbox</h3> -->
+
+
+    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero aut ipsa molestiae impedit quae quasi totam nulla, quod consequatur, nostrum asperiores exercitationem omnis provident ea iste? Sequi, numquam veniam.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero aut ipsa molestiae impedit quae quasi totam nulla, quod consequatur, nostrum asperiores exercitationem omnis provident ea iste? Sequi, numquam veniam.</p> -->
+
+    <div id="box1">Box 1</div>
+    <div class="flex">
+        <!-- <div id="box2">Box 2</div>
+        <div id="box3">Box 3</div>
+        <div id="box4">Box 4</div> -->
+    </div>
+
+<!-- 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ut nam molestiae placeat quibusdam dolorum error veritatis. Voluptas unde, laudantium porro necessitatibus aperiam saepe officiis libero! Nemo tempore id praesentium.</p> -->
+
+
+
+
+
+
+
+
+</body>
+
+</html>
