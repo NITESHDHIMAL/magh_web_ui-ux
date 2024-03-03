@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .container {
+            border: 10px solid red;
+            display: grid;
+            height: 100vh;
+
+
+
+
+
+            /* grid-template-columns: 100px 100px 100px; */
+            /* grid-template-columns: 100px auto auto auto; */
+            /* grid-template-columns: 2fr 1fr 1fr; */
+            /* grid-template-columns: repeat(3, 100px); */
+            /* grid-template-columns: repeat(3, 1fr); */
+            grid-template-columns: repeat(3, 1fr);
+
+            /* grid-template-rows: 200px 100px 100px; */
+
+            /* gap: 10px; */
+            /* column-gap: 20px; */
+            /* row-gap: 20px; */
+
+            /* justify aaune bittikai row ma work garxa  */
+            /* justify-items: center; */
+            /* justify-items: start; */
+            /* justify-items: end; */
+            /* justify-items: stretch; */
+         
+            /* justify-content: center; */
+            /* justify-content: end; */
+            /* justify-content: start; */
+
+
+            /* align aaune bittikai colum ma work garxa */
+            /* align-items: center; */
+            /* align-items: end; */
+
+            /* align-content: space-around; */
+            /* align-content: space-between; */
+            /* align-content: space-evenly; */
+            /* align-content: center; */
+
+            
+
+
+        }
+
+        .item {
+            /* height: 100px;
+            width: 100px; */
+
+            border: 2px solid black;
+            font-size: 2rem;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        .item-1{
+            /* justify-self: center; */
+            /* justify-self: end; */
+            /* justify-self: start; */
+
+            /* align-self: center; */
+            /* align-self: end; */
+            /* align-self:baseline; */
+
+            /* grid-column-start: 2;
+            grid-column-end: 4; */
+
+            grid-row-start: 1;
+            grid-row-end: 4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+        <div class="item">13</div>
+        <div class="item">14</div>
+    </div>
+
+</body>
+
+</html>
