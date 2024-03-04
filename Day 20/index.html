@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* img{ */
+        /* border-radius: 50%; */
+        /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+        /* clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+        } */
+
+        img {
+            /* opacity: 1; */
+            /* opacity: 0; */
+            opacity: 0.5;
+        }
+
+        img:hover {
+            cursor: pointer;
+            /* height: 200px; */
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            opacity: 0.1;
+        }
+
+        .box:hover {
+            background-color: blue;
+        }
+
+        p:hover {
+            color: blue;
+            cursor: pointer;
+            /* cursor: progress; */
+        }
+
+        /* ::before
+      ::after */
+        p:hover:before {
+            content: "Lorem";
+            color: red;
+            font-size: 2rem;
+
+        }
+
+        p::after {
+            content: "After";
+            color: red;
+            font-size: 2rem;
+
+        }
+
+        span {
+            color: blue;
+        }
+
+        li:first-child {
+            color: red;
+        }
+
+        li:last-child {
+            color: blue;
+        }
+
+        li:nth-child(3) {
+            font-size: 2rem;
+        }
+
+        ul {
+            /* list-style-type: none; */
+            list-style-type: circle;
+        }
+
+        img[alt="shark"]{
+            height: 50px;
+        }
+
+        .box3{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            /* padding: 30px;
+            top right bottom left  */
+            /* transition: all 3s ease; */
+            /* transition-delay: 3s; */
+            transition-duration:5s;
+            transition-property:all;
+            /* transition-timing-function: ease; */
+            /* transition-timing-function: ease-out; */
+            transition-timing-function:cubic-bezier(0.8, 0.32, 0.44, 1.49);
+        }
+
+        .box3:hover{
+            background-color: red;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+    
+
+    </style>
+</head>
+
+<body>
+
+
+<!-- 
+    <img src="https://images.unsplash.com/photo-1682685797277-f2bf89b24017?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="men" height="100px" width="100px">
+
+    <img src="https://images.unsplash.com/photo-1707327259268-2741b50ef5e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8"
+        height="100px" alt="shark">
+
+    <p>ipsum <span> dolor</span> sit.</p>
+
+    <div class="box">
+    </div>
+    <ul>
+        <li>Python</li>
+        <li>Django</li>
+        <li>Laravel</li>
+        <li>Php</li>
+        <li>Ui/ux</li>
+    </ul> -->
+
+
+    <div class="box3">
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
